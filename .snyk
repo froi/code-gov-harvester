@@ -1,0 +1,16 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@code.gov/code-gov-validator > lodash':
+        patched: '2020-05-01T02:44:25.214Z'
+    - '@code.gov/code-gov-adapter > bodybuilder > lodash':
+        patched: '2020-05-01T02:44:25.214Z'
+    - '@code.gov/code-gov-adapter > elasticsearch > lodash':
+        patched: '2020-05-01T02:44:25.214Z'
+    - '@code.gov/code-gov-integrations > @octokit/rest > lodash':
+        patched: '2020-05-01T02:44:25.214Z'
+    - winston > async > lodash:
+        patched: '2020-05-01T02:44:25.214Z'
