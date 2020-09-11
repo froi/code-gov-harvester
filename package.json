@@ -60,7 +60,7 @@
     "jsonfile": "^5.0.0",
     "latinize": "^0.4.0",
     "node-cron": "^2.0.3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "nodemailer": "^6.3.1",
     "winston": "^3.1.0"
   },
